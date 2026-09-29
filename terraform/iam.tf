@@ -25,7 +25,7 @@ data "aws_iam_policy_document" "github_actions_trust" {
       test     = "StringLike"
       variable = "token.actions.githubusercontent.com:sub"
       values = [
-        "repo:Vasu25946/terraform-github-actions-s3-oidc:ref:refs/heads/main"
+        "repo:Vasu25946@332796862/terraform-github-actions-s3-oidc@1394797342:ref:refs/heads/main"
       ]
     }
   }
